@@ -69,14 +69,7 @@ Link Repository     : https://github.com/sdikyarts/kpop_collections.git
             </dt>
         </dl>
         ke dalam berkas <code>requirements.txt</code></dd>
-        <dd>- Install dependencies dengan menjalankan
-        <dl>
-            <dt>
-                <dd><code>
-                    pip install -r requirements.txt
-                </code></dd>
-            </dt>
-        </dl></dd>
+        <dd>- Install dependencies dengan menjalankan <code>pip install -r requirements.txt</code></dd>
         <dd>- Buat proyek Django dengan nama <code>kpop_collections</code> dengan menjalankan perintah <code>django-admin startproject kpop_collections .</code></dd>
         <dd>- Tambahkan <code>*</code> pada <code>ALLOWED HOSTS</code> di <code>settings.py</code></dd>
         <dl>
@@ -100,6 +93,7 @@ Link Repository     : https://github.com/sdikyarts/kpop_collections.git
         <dd>- Buat file <code>.gitignore</code> (masih di directory <code>kpop_collections</code>), lalu isi dengan kode berikut</dd>
 <pre>
 <code>
+```python
 # Django
 *.log
 *.pot
