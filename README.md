@@ -91,9 +91,9 @@ Link Repository     : https://github.com/sdikyarts/kpop_collections.git
         </dd>
     <dt>* Push ke repository GitHub</dt>   
         <dd>- Buat file <code>.gitignore</code> (masih di directory <code>kpop_collections</code>), lalu isi dengan kode berikut</dd>
+```python
 <pre>
 <code>
-```python
 # Django
 *.log
 *.pot
