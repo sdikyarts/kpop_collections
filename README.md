@@ -44,4 +44,8 @@ Link Repository     : https://github.com/sdikyarts/kpop_collections.git
             </dt>
         </dl>
     <dt>* Membuat repository baru di GitHub<dt>
+        <dd>
+            <img src="file:///Users/yasmineputri/Downloads/repo_fresh.png" alt="tampilan repository">
+        </dd>
+    </dt>
 <dl>
