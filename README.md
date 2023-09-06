@@ -5,7 +5,6 @@ NPM     : 2206081862
 <br>
 Kelas   : PBP A
 <br>
-Tugas   : Tugas 2
 <br>
 <br>
 
