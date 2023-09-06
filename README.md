@@ -28,21 +28,21 @@ Link Repository     : https://github.com/sdikyarts/kpop_collections.git
         <dd>- Lalu, kita harus mengkonfigurasi username dan email GitHub ke repositori Git tersebut dengan cara:</dd>
         <dl>
             <dt>
-                <dd><code>  git config user.name "<NAME>"</code></dd>
+                    <dd><code>  git config user.name "<NAME>"</code></dd>
                 <dd><code>  git config user.email "<EMAIL>"</code></dd>
             </dt>
         </dl>
         <dd>- Kita juga bisa mengkonfigurasi secara global dengan cara:</dd>
         <dl>
             <dt>
-                <dd><code>  git config --global user.name "<NAME>"</code></dd>
-                <dd><code>  git config --global user.email "<EMAIL>"</code></dd>
+                    <dd><code>git config --global user.name "<NAME>"</code></dd>
+                <dd><code>git config --global user.email "<EMAIL>"</code></dd>
             </dt>
         </dl>
         <dd>- Verifikasi git lokal</dd>
         <dl>
-            <dt>
-                <dd><code>  git config --list --local</code></dd>
+            <dt>    
+                    <dd><code>  git config --list --local</code></dd>
             </dt>
         </dl>
     <dt>Membuat repository baru di GitHub<dt>
