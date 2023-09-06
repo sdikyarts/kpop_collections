@@ -2,7 +2,9 @@
 Nama    : Yasmine Putri Viryadhani
 
 NPM     : 2206081862
+
 Kelas   : PBP A
+
 Tugas   : Tugas 2
 <br>
 <br>
@@ -11,6 +13,7 @@ Tugas   : Tugas 2
 Nama App            : K-Pop Collections
 
 Link App Adaptable  :
+
 Link Repository     : https://github.com/sdikyarts/kpop_collections.git
 <br>
 <br>
