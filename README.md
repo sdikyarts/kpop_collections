@@ -6,7 +6,6 @@ NPM     : 2206081862
 Kelas   : PBP A
 <br>
 <br>
-<br>
 
 <h2>Deskripsi Tugas</h2>
 Nama App            : K-Pop Collections
