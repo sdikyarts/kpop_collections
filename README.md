@@ -45,27 +45,27 @@ Link Repository     : https://github.com/sdikyarts/kpop_collections.git
         </dl>
     <dt>* Membuat repository baru di GitHub<dt>
         <dd>
-            <spoiler><img src="repo_fresh.png" alt="tampilan repository"></spoiler>
+            <img src="repo_fresh.png" alt="tampilan repository">
         </dd>
     </dt>
     <dt>* Instalasi + Inisiasi Django pada repository</dt>
         <dd>- Menambahkan virtual environment ke dalam directory <code>kpop_collections</code> dengan menjalankan kode <code>python3 -m venv env</code> (di MacOS)</dd>
-        <dd>- Menjalankan virtual environment dengan cara 
-        <dl>
-            <dt>MacOS</dt>
-                <dd><code>source env/bin/activate</code></dd>
-        </dl>
+        <dd>- Menjalankan virtual environment dengan cara <code>source env/bin/activate</code></dd>
         <dd>- Menyiapkan Dependencies dengan membuat berkas <code>requirements.txt</code> di directory yang sama, lalu menambahkan
         <dl>
             <dt>
-                <dd><code>
-                    django
-                    gunicorn
-                    whitenoise
-                    psycopg2-binary
-                    requests
-                    urllib3
-                </code></dd>
+                <dd>
+                    <pre>
+                    <code>
+                        django
+                        gunicorn
+                        whitenoise
+                        psycopg2-binary
+                        requests
+                        urllib3
+                    </code>
+                    </pre>
+                </dd>
             </dt>
         </dl>
         ke dalam berkas <code>requirements.txt</code></dd>
@@ -81,21 +81,25 @@ Link Repository     : https://github.com/sdikyarts/kpop_collections.git
         <dd>- Tambahkan <code>*</code> pada <code>ALLOWED HOSTS</code> di <code>settings.py</code></dd>
         <dl>
             <dt>
-                <dd><code>
-                    ...
-                    ALLOWED_HOSTS = ["*"]
-                    ...
-                </code></dd>
+                <dd>
+                <pre>
+                    <code>
+                        ...
+                        ALLOWED_HOSTS = ["*"]
+                        ...
+                    </code>
+                </pre>
+                </dd>
             </dt>
         </dl>
         <dd>- Setelah memastikan file <code>manage.py</code> ada di directory, jalankan instruksi <code>./manage.py runserver</code> (MacOS). Saat menjalankan domain http://localhost:8000 muncul animasi roket</dd>
         <dd>
-            <spoiler><img src="success install django.png" alt="tampilan repository"></spoiler>
+            <img src="success install django.png" alt="tampilan repository">
         </dd>
     <dt>* Push ke repository GitHub</dt>   
-        <dd>- Buat file <code>.gitignore</code> (masih di directory <code>kpop_collections</code>), lalu isi dengan
-        <spoiler>
-            <code> 
+        <dd>- Buat file <code>.gitignore</code> (masih di directory <code>kpop_collections</code>), lalu isi dengan kode berikut</dd>
+<pre>
+<code>
 # Django
 *.log
 *.pot
@@ -233,7 +237,7 @@ GitHub.sublime-settings
 !.vscode/launch.json 
 !.vscode/extensions.json 
 .history
-            </code>
-        </spoiler></dd>
-        <dd>- Add, commit, dan Push ke repository GitHub</dd>
+</code>
+</pre>
+        <dd>- Add, commit, dan Push proyek Django ke repository GitHub</dd>
 <dl>
