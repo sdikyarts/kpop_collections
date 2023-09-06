@@ -91,9 +91,7 @@ Link Repository     : https://github.com/sdikyarts/kpop_collections.git
         </dd>
     <dt>* Push ke repository GitHub</dt>   
         <dd>- Buat file <code>.gitignore</code> (masih di directory <code>kpop_collections</code>), lalu isi dengan kode berikut</dd>
-```python
-<pre>
-<code>
+<pre><code class="python">
 # Django
 *.log
 *.pot
@@ -231,7 +229,6 @@ GitHub.sublime-settings
 !.vscode/launch.json 
 !.vscode/extensions.json 
 .history
-</code>
-</pre>
+</code></pre>
         <dd>- Add, commit, dan Push proyek Django ke repository GitHub</dd>
 <dl>
