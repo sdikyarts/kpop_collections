@@ -103,13 +103,13 @@ media
 <code># Backup files</code>
 *.bak 
 
-<code># If you are using PyCharm
-# User-specific stuff
+<code># If you are using PyCharm</code>
+<code># User-specific stuff</code>
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
-.idea/**/shelf</code>
+.idea/**/shelf
 
 <code># AWS User-specific</code>
 .idea/**/aws.xml
