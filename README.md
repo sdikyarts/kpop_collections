@@ -1,4 +1,4 @@
-<h4>Data Mahasiswa</h4>
+<h2>Data Mahasiswa</h2>
 Nama    : Yasmine Putri Viryadhani
 
 NPM     : 2206081862
@@ -7,7 +7,7 @@ Tugas   : Tugas 2
 <br>
 <br>
 
-<h3>Deskripsi Tugas</h3>
+<h2>Deskripsi Tugas</h2>
 Nama App            : K-Pop Collections
 
 Link App Adaptable  :
@@ -15,9 +15,9 @@ Link Repository     : https://github.com/sdikyarts/kpop_collections.git
 <br>
 <br>
 
-<h3>Checklist Tugas</h3>
-Proses pengimplementasian Checklist Tugas:
-1. Membuat proyek Django
+<h2>Checklist Tugas</h2>
+<h3>Proses pengimplementasian Checklist Tugas:<h3>
+<h4>1. Membuat proyek Django</h4>
     * Inisiasi Direktori Lokal
         - Sebelum membuat proyek Django, dibuatlah sebuah direktori kosong baru di lokal. Saya menamainya sebagai 
         - Setelah membuat direktori, kita harus menginisiasi repositori Git kosong di direktori tersebut dengan perintah git_init
